@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>CV Milos Jovanovic</title>
+    <link rel="stylesheet" type="text/css" href="static/cv.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1 id="picture" data-translate="name">Milos Jovanovic</h1>
+<!--        <button id="toggle-language">Toggle Language</button>-->
+        <!-- <div id="image-container" style="display: block;"> -->
+        <!-- <img id="myImage" style="width: 200px; height: 200px; position: center; " src="C:\Users\Thinkpad\Desktop\Slike Alen\6.jpg" alt="" style="display: none;"/> -->
+        <!-- </div> -->
+        <p>Serbia , Belgrade  +38169/366-36-88</p>
+        <p><a style="color: aliceblue;" href="mailto:milos.jovanovic87@yahoo.com">milos.jovanovic87@yahoo.com</a>
+            · <a href="https://www.linkedin.com/in/milos-jovanovic-59ab80164">linkedin.com/in/milos-jovanovic-59ab80164</a></p>
+    </header>
+    <div class="center-text" id="change" onclick="change()">
+        <h2 id="left_h2" style="color: #ff9900;"><span style="margin-right: 20px;">2 - 3 YEARS</span> IT EXPERIENCE </h2>
+        <button style="border: none;" class="fa fa-refresh">
+            <i id="left" style=" color: #ff9900; font-size: large; margin-bottom: 11px;" class="fas fa-chevron-left"></i>
+            <i class="fa fa-spinner fa-spin fa-2x fa-fw"></i>
+            <i id="right"  class="fas fa-chevron-right" style="font-size: large;"></i>
+        </button>
+        <h2 id="right_h2" style="">REPAIR EXPERIENCE<span style="margin-left: 20px;">10 YEARS</span></h2>
+    </div>
+
+
+    <!-- <div class="center-text" id="change" ><h2 style="color: #ff9900;">IT EXPERIENCE </h2><button style="border: none;" class="fa fa-refresh"  onclick="change()" id="change"><i id="left" style="color: #ff9900; font-size: large; margin-bottom: 11px;" class="fas fa-chevron-left"></i><i class="fa fa-spinner fa-spin fa-2x fa-fw"></i><i id="right" class="fas fa-chevron-right" style="font-size: large;"></i></button><h2>OTHER EXPERIENCE</h2></div> -->
+    <!-- <div class="center-text" id="change" ><h2 style="">IT EXPERIENCE </h2><button style="border: none;" class="fa fa-refresh"  onclick="change()" id="change"><i id="left" style=" font-size: large; margin-bottom: 11px;" class="fas fa-chevron-left"></i><i class="fa fa-spinner fa-spin fa-2x fa-fw"></i><i id="right" style="color: #ff9900;" class="fas fa-chevron-right" style="font-size: large;"></i></button><h2 style="color: #ff9900;">OTHER EXPERIENCE</h2></div> -->
+    <section class="box experience">
+        <div class="job">
+            <h3>SOFTWARE DEVELOPER,</h3><h3 style="text-decoration: solid; color: black;"> HILL SOFT</h3>
+            <p>Company – HILL SOFT (01.10.2022-)</p>
+            <p>Position - Software Developer (Git and ProofHub)</p>
+            <p>Tech Stack: Python, Odoo, Talend, Java, Javascript, HTML, CSS, PgAdmin, Postgres(8,10), MSSql, ElasticSearch, ActiveMq, Json, Xml, etc.</p>
+            <div class="tasks1">
+                <p class="tasks_head">Tasks Odoo:</p>
+                <ul>
+                    <li>- Odoo Implementation of the mobile version in CSS on demands</li>
+                    <li>- Odoo Implementation of jump to page and pagination</li>
+                    <li>- Odoo v.14 Creating a dynamic table in Javascript from getting JSON response from the
+                        controller</li>
+                    <li>- Odoo v.14 Bugfixing and writing technical documentation</li>
+                    <li>- Odoo Implementation of DocumentPreviewer, expanding an existing module to convert
+                        Excel,
+                        Word, and txt files to PDF and preview</li>
+                    <li>- Odoo v.14 Implementing backend module in frontend using Ajax and Ajax.Json.Rpc calls
+                        to the controller, creating templates and logic for CRUD operations</li>
+                    <li>- Odoo (Creating XML templates for backend and frontend, inheriting existing templates
+                        and controllers, and creating new ones)</li>
+                    <li> - Creating logs and error handling
+                            Developing (MVC) - Odoo v.14:</li>
+                </ul>
+            </div>
+            <div class="tasks1_1">
+                <p class="tasks_head">Tasks Talend:</p>
+                <ul>
+                    <li>- Talend job Creating (IAM) User Injection from SoapUI injection of 90,000 users - Creating
+                        SQL queries.</li>
+                    <li> - Working with various data formats, including XML, JSON, CSV, etc.</li>
+                    <li> - Talend job reading ActiveMq and inserting data into Postgresql table</li>
+                    <li> - Talend job reading excel and csv files and inserting them into Postgresql table</li>
+                    <li> - Talend job creating a blacklist of users and filtration</li>
+                    <li> - Talend job creating Enricher for Visibility of products</li>
+                    <li> - Talend job writing technical documentation</li>
+
+                </ul>
+            </div>
+            <div>
+                <button onclick="more1()" class="more1" style="cursor: pointer;"><i id="arrow1" class="fas fa-chevron-down"></i></button>
+            </div>
+            <!-- Dodajte ostale detalje o poslu -->
+        </div>
+        <div class="job">
+            <h3>SOFTWARE DEVELOPER(INTERN),  </h3><h3 style="text-decoration: solid; color: black;"> FACTORY WORLD WIDE</h3>
+            <p>Company – FACTORY WORLD WIDE, (BELGRADE JAN 2022 – OCT 2022)</p>
+            <p>Position - Backend  Developer (Git and ProofHub)</p>
+            <p>Tech Stack: Python3, FastApi, SQLAlchemy, Alembic, PostgreSQL, Redis, Docker, Swagger, GIT.</p>
+            <div class="tasks2">
+                <p class="tasks_head">Tasks:</p>
+                <ul>
+                    <li> - Adding new patients, schedules for medical examination, patient history, doctor reviews</li>
+                    <li> - Creating list of possible exams, exam prices, creating PDF bill from reviews</li>
+                    <li> - Save/get user session, forgotten password token in Redis</li>
+                    <li> - Email integration SendInBlue - https://gitlab.com/fww/klinika/-/tree/develop/backend</li>
+                </ul>
+            </div>
+            <div>
+                <button onclick="more2()" class="more2" style="cursor: pointer;"><i id="arrow2" class="fas fa-chevron-down"></i></button>
+            </div>
+            <!-- Dodajte ostale detalje o poslu -->
+        </div>
+        <div class="job">
+            <h3>SOFTWARE DEVELOPER, </h3></h3><h3 style="text-decoration: solid; color: black;"> KUBICON, LONDON</h3>
+            <p>Company – KUBICON (JUNE 2020 – JAN 2022)</p>
+            <p>Position - Software Developer (Git and ProofHub)</p>
+            <p>Tech Stack: Python, SSH, Putty</p>
+            <div class="tasks3">
+                <p class="tasks_head">Tasks:</p>
+                <ul>
+                    <li> - Assisting senior developers</li>
+                    <li> - Implementing Python code with assistance from senior developers</li>
+                    <li> - Making sure Python code is efficient</li>
+                    <li> - Verifying that integration can take place with front end system</li>
+                </ul>
+            </div>
+            <div>
+                <button onclick="more3()" class="more3" style="cursor: pointer;"><i id="arrow3" class="fas fa-chevron-down"></i></button>
+            </div>
+            <!-- Dodajte ostale detalje o poslu -->
+        </div>
+
+        <!-- Dodajte druge poslove ovde sa istom strukturom -->
+    </section>
+    <section class="box experience2">
+        <div class="job">
+            <h3>DUTY TECHNICIAN,</h3><h3 style="text-decoration: solid; color: black;"> HILTON HOTEL</h3>
+            <p>Company – HILTON HOTEL, BELGRADE (JAN 2018 – MARCH 2021)</p>
+            <p>Position - DUTY TECHNICIAN</p>
+            <p>Assistance and monitoring of the hotel and engagement of external companies HVAC system
+                repairing and monitoring using smart building software - BMS</p>
+            <div class="repair1">
+                <!-- <p class="tasks_head">Tasks Odoo:</p> -->
+                <ul>
+                    <li>- Preparation and snagging of the facility in pre-opening phase</li>
+                    <li>- Maintenance and inspection of hotel rooms electrical installations, fire protection systems</li>
+                    <li>- Access control systems, air conditioning chambers, heat pumps as well as monitoring of lists
+                        and documentation related to technical maintenance of higher standards and preventive
+                        maintenance</li>
+                </ul>
+
+            </div>
+            <div class="repair1">
+                <p class="tasks_head">Certificates:</p>
+                <ul>
+                    <li> - Bed Bug Training - English</li>
+                    <li> - Digital Key Game for Hilton – Engineering</li>
+                    <li> - Hilton Make It Right – Leader Empowerment</li>
+                    <li> - Stay Safe – Preventing & Reacting to Active Attack Situations</li>
+                </ul>
+            </div>
+            <div>
+                <button onclick="repair_one()" class="repair_one" style="cursor: pointer;"><i id="arrow4" class="fas fa-chevron-down"></i></button>
+            </div>
+
+        <div class="job">
+            <h3>SENIOR TECHNICIAN,</h3><h3 style="text-decoration: solid; color: black;"> TECHNOPLANET DOO</h3>
+            <p>Company – TECHNOPLANET DOO, BELGRADE (APRIL 2010 – DECEMBER 2017)</p>
+            <p>Position - FIELD SERVICE TEHNICIAN </p>
+            <p>Servicing electric equipment, organizing device installation and managing the production of Elin
+                TVs in Serbia</p>
+            <div class="repair2">
+                <!-- <p class="tasks_head">Tasks Odoo:</p> -->
+                <ul>
+                    <li>- Repair of LCD, LED, DLED and Smart TVs from Elin and Blaupunkt brands as well as ordinary
+                        CRT TVs</li>
+                    <li>- Fixing all kinds of equipment and electronics - dishwashers, washing machines, irons, mixers,
+                        air conditioning, refrigeration, built-in ovens and hobs, stoves, vacuum cleaners</li>
+                    <li>- Implementing and updating software in Eeproms</li>
+                    <li>- Providing technical support to customers</li>
+                </ul>
+            </div>
+            <div>
+                <button onclick="repair_two()" class="repair_two" style="cursor: pointer;"><i id="arrow5" class="fas fa-chevron-down"></i></button>
+            </div>
+
+    </section>
+    </div>
+    <section class="box  education">
+        <h2>EDUCATION</h2>
+        <p>2007 - HIGHSCHOOL DIPLOMA - LANDSCAPE ARCHITECTURE, DRVO ART, BELGRADE</p>
+        <p>University Singidunum, BELGRADE</p>
+    </section>
+
+    <section class="box  driving">
+        <h2>DRIVING LICENCE</h2>
+        <p><strong>A</strong> - CATEGORY (2014)</p>
+        <p><strong>B</strong> - CATEGORY (2006)</p>
+    </section>
+
+
+    <section class="box  skills">
+        <h2>HARD SKILLS</h2>
+        <ul>
+            <li>Python coding (junior-medior level)</li>
+            <li>Electronics repair</li>
+            <li>Postgres</li>
+        </ul>
+    </section>
+    <section class="box skills">
+        <h2>SOFT SKILLS</h2>
+        <ul>
+            <li>Logistics</li>
+            <li>Strategic planning</li>
+            <li>Electronics repair</li>
+            <li>Organization</li>
+        </ul>
+    </section>
+
+    <section class="box interests">
+        <h2>PERSONAL INTERESTS</h2>
+        <ul>
+            <li>Team sports</li>
+            <li>Arduino</li>
+            <li>Painting</li>
+        </ul>
+    </section>
+    <script src="static/cv.js"></script>
+</body>
+</html>

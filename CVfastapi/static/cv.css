@@ -1,0 +1,133 @@
+/* Resetiranje podrazumevanih stilova */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Postavljanje fonta i boje pozadine za celu stranicu */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+    overflow-x: hidden;
+}
+
+/* Stilizacija zaglavlja */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+header a {
+    color: #ff9900;
+    text-decoration: none;
+}
+
+.center-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.spinner {
+    font-size: small;
+}
+
+/* Stilizacija sekcija */
+section {
+    box-shadow: inset;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px;
+    transform: translateX(200%);
+    transition: transform 0.4s ease;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Stilizacija veština */
+.skills ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+/* Stilizacija interesa */
+.interests ul {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+.job {
+    margin-top: 10px;
+}
+
+.job h3 {
+    color: #ff9900;
+}
+
+.tasks1 {
+    text-shadow: #ff1100;
+    text-transform: capitalize;
+    font-size: 17px;
+    display: none;
+}
+
+.tasks1_1 {
+    display: none;
+}
+
+.tasks2 {
+    display: none;
+}
+.tasks3 {
+    display: none;
+}
+
+.repair1 {
+    display: none;
+}
+
+.repair2 {
+    display: none;
+}
+
+.tasks_head {
+    color: rgb(130, 75, 2);
+}
+
+.box{
+    transform: translateX(200%);
+    transition: transform 0.4s ease;
+}
+
+.box.show {
+    transform: translateX(0);
+}
+
+.more {
+    width: 40%;
+    height: 4%;
+
+}
+
+.experience2 {
+    display: none;
+}
